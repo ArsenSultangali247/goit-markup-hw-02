@@ -138,6 +138,7 @@
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #212121;
+    text-align: center;
 }
 
 .our-team-img-list-item-desc{
@@ -146,6 +147,7 @@
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #757575;
+    text-align: center;
 }
 
 /* FOOTER */
@@ -210,6 +212,21 @@
     text-decoration: none;
 }
 
+.footer-address-item1:hover,
+.footer-address-item1:focus {
+    color: #2196F3;
+}
+
+.footer-address-item2:hover,
+.footer-address-item2:focus {
+    color: #FFFFFF;
+}
+
+.footer-address-item3:hover,
+.footer-address-item3:focus {
+    color: #FFFFFF;
+}
+
 .button-list{
     list-style: none;
 }
@@ -220,15 +237,35 @@
     left: 576px;
     top: 174px;
     background-color: #F5F4FA;
-}
-
-.button-list-item-text{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+}
+
+.button-list-item:hover,
+.button-list-item:focus{
+    background-color: #2196F3;
+    color: #FFFF;
+}
+
+.button-list-item1 {
+    width: 128px;
+    height: 38px;
+    left: 576px;
+    top: 174px;
+    background-color: #2196F3
+}
+
+.button-list-item-text1 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
 }
 
 .hero-img-list{
@@ -249,4 +286,12 @@
     line-height: 1.875;
     letter-spacing: 0.03em;
     color: #757575;
+}
+
+.nav-focus-studio{
+    color: #2196F3;
+}
+
+.nav-focus-portfolio{
+    color: #2196F3;
 }
