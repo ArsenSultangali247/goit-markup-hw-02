@@ -8,6 +8,7 @@
     --background-color-theme: #2F303A;
     --background-color-theme-light: #F5F4FA;
     --accent-color: #2196F3;
+    --modal-button-hov-foc-color: #188CE8;
     --primary-title-color-theme-light: #FFFFFF;
     --footer-address-color: 255, 255, 255;
 }
@@ -82,6 +83,12 @@
 
 .hero-title{
     color: var(--primary-title-color-theme-light);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
 .modal-button{
@@ -94,6 +101,15 @@
 
 .modal-button-text{
     color: var(--primary-title-color-theme-light);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+}
+
+.modal-button:hover,
+.modal-button:focus{
+    background-color: var(--modal-button-hov-foc-color);
 }
 
 /* ABOUT */
@@ -283,6 +299,22 @@
     line-height: 1.63;
     text-align: center;
     letter-spacing: 0.03em;
+    color: var(--primary-title-color-theme-light);
+}
+
+.button-list-item-text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color-theme-dark);
+
+}
+
+.button-list-item-text:hover,
+.button-list-item-text:focus {
     color: var(--primary-title-color-theme-light);
 }
 
